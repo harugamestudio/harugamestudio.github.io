@@ -1,0 +1,32 @@
+name: Update news from itch.io
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:          # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python .github/scripts/fetch_news.py
+        env:
+          PATREON_TOKEN: ${{ secrets.PATREON_TOKEN }}
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain data/news.js)" ]; then
+            git config user.name "news-bot"
+            git config user.email "news-bot@users.noreply.github.com"
+            git add data/news.js
+            git commit -m "Update news"
+            git push
+          else
+            echo "No changes"
+          fi

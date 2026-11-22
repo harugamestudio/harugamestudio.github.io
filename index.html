@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HaruGameStudio — Dark Indie Horror Games</title>
+<meta name="description" content="HARU Game Studio — solo indie developer of dark horror games: Sacred Lust, GOREGASM and more. Free downloads, devlogs and news.">
+<link rel="canonical" href="https://harugamestudio.github.io/">
+<meta name="theme-color" content="#070507">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HaruGameStudio">
+<meta property="og:title" content="HaruGameStudio — Dark Indie Horror Games">
+<meta property="og:description" content="HARU Game Studio — solo indie developer of dark horror games: Sacred Lust, GOREGASM and more. Free downloads, devlogs and news.">
+<meta property="og:url" content="https://harugamestudio.github.io/">
+<meta property="og:image" content="https://harugamestudio.github.io/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ruslanharu">
+<meta name="twitter:title" content="HaruGameStudio — Dark Indie Horror Games">
+<meta name="twitter:description" content="HARU Game Studio — solo indie developer of dark horror games: Sacred Lust, GOREGASM and more. Free downloads, devlogs and news.">
+<meta name="twitter:image" content="https://harugamestudio.github.io/assets/og-image.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Organization","name":"HARU Game Studio","alternateName":"HaruGameStudio","url":"https://harugamestudio.github.io/","logo":"https://harugamestudio.github.io/assets/logo.png",
+  "sameAs":["https://ruslanharu.itch.io","https://x.com/ruslanharu","https://patreon.com/ruslanharu","https://discord.gg/h9SFjcgpsk"]},
+ {"@type":"WebSite","name":"HaruGameStudio","url":"https://harugamestudio.github.io/"},
+ {"@type":"VideoGame","name":"Sacred Lust","url":"https://harugamestudio.github.io/game.html?id=sacred-lust","gamePlatform":"Windows","genre":["Horror","Survival","Stealth"],"author":{"@type":"Organization","name":"HARU Game Studio"},"contentRating":"Mature 18+"},
+ {"@type":"VideoGame","name":"GOREGASM","url":"https://harugamestudio.github.io/game.html?id=goregasm","gamePlatform":"Windows","genre":["Shooter","Action","Survival"],"author":{"@type":"Organization","name":"HARU Game Studio"},"contentRating":"Mature 18+"}
+]}
+</script>
+
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-home="1">
+
+<noscript>
+  <div style="padding:120px 20px;text-align:center">
+    <h1>HARU Game Studio</h1>
+    <p>Solo indie developer of dark, atmospheric horror games.</p>
+    <p><a href="game.html?id=sacred-lust">Sacred Lust</a> — first-person horror survival in a cursed Gothic church.</p>
+    <p><a href="game.html?id=goregasm">GOREGASM</a> — brutal retro wave-based shooter.</p>
+    <p><a href="https://ruslanharu.itch.io">All games on itch.io</a> · <a href="presskit.html">Press kit</a></p>
+  </div>
+</noscript>
+
+<header class="hero" id="top">
+  <div class="sigil"><img class="hero-logo" alt="logo"></div>
+  <div class="ornament"><span></span>✠<span></span></div>
+  <p class="tagline"></p>
+  <a href="#projects" class="btn btn-blood hero-btn"></a>
+  <div class="scroll-hint">↓</div>
+</header>
+
+<section id="projects">
+  <h2 class="reveal">Projects</h2>
+  <div class="ornament reveal"><span></span>❦<span></span></div>
+  <div class="filters" id="filters"></div>
+  <div class="tiles" id="tiles"></div>
+</section>
+
+<section id="news">
+  <h2 class="reveal" id="newsTitle">News</h2>
+  <div class="ornament reveal"><span></span>❦<span></span></div>
+  <div class="news-list" id="newsList"></div>
+</section>
+
+<section id="community">
+  <h2 class="reveal">Community</h2>
+  <div class="ornament reveal"><span></span>❦<span></span></div>
+  <div class="community">
+    <div class="panel reveal" id="support"></div>
+    <div class="panel reveal" id="discord"></div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about-box reveal">
+    <h2 id="aboutTitle"></h2>
+    <div class="ornament"><span></span>✠<span></span></div>
+    <div id="aboutText"></div>
+  </div>
+</section>
+
+<section id="contacts">
+  <h2 class="reveal">Contacts</h2>
+  <div class="ornament reveal"><span></span>❦<span></span></div>
+  <div class="socials reveal" id="socials"></div>
+</section>
+
+<script src="config.js"></script>
+<script src="data/news.js"></script>
+<script src="js/common.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>
