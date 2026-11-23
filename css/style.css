@@ -409,3 +409,16 @@ footer a:hover{color:var(--bone)}
 .patreon-tag i{font-style:normal;font-size:10px;padding:0 5px;border-left:1px solid rgba(255,66,77,.5);margin-left:2px}
 .news-patreon .new{margin-left:0}
 .news-patreon h4{margin-bottom:0}
+
+/* console command in download popup */
+.cmd-label{font-family:Cinzel,serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--ash);margin:2px 0 8px}
+.cmd{display:flex;align-items:center;gap:10px;margin-bottom:10px;padding:10px 10px 10px 14px;background:#050305;border:1px solid var(--line);border-left:2px solid var(--crimson)}
+.cmd-prompt{color:var(--crimson);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px;user-select:none}
+.cmd code{flex:1;min-width:0;overflow-x:auto;white-space:nowrap;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"DejaVu Sans Mono",monospace;font-size:13px;color:var(--bone);scrollbar-width:thin;padding-bottom:2px}
+.cmd-copy{flex:none;font-family:Cinzel,serif;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;padding:7px 12px;cursor:pointer;
+  background:transparent;color:var(--gold);border:1px solid var(--line);transition:.25s}
+.cmd-copy:hover{border-color:var(--crimson);color:#fff;background:rgba(139,10,26,.35)}
+.cmd-copy.done{border-color:#3ba55d;color:#7ee2a0}
+.mirror .m-name{display:inline-flex;align-items:center;gap:10px;color:var(--bone)}
+.mirror .m-name svg{width:18px;height:18px}
+.modal-box{max-width:520px;max-height:90vh;overflow-y:auto}

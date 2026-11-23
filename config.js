@@ -95,7 +95,10 @@ const SITE = {
    status / age / version / description / tags : shown on the card
    downloads: one entry per platform
      platform: "windows" | "linux" | "android" | "macos" | "web"
-     mirrors : list of sources for this platform
+     command : (optional) console command shown first, with a Copy button
+               one command:  command: "curl -fsSL https://... | bash"
+               several:      command: [ "git clone https://github.com/...", "cd repo && ./install.sh" ]
+     mirrors : list of links for this platform (e.g. GitHub page, itch.io)
 
    page    : GAME PAGE (game.html?id=...). Remove "page" = no game page.
      banner     : big title image on top (game logo), "" = text title
@@ -257,9 +260,9 @@ const PROJECTS = [
       {
         platform: "linux",
         label: "Download for Linux",
+        command: "curl -fsSL https://raw.githubusercontent.com/harugamestudio/magic-cleanup/main/install.sh | bash",
         mirrors: [
-          { name: "itch.io",      url: "https://ruslanharu.itch.io/magic-cleanup" },
-          { name: "Google Drive", url: "https://drive.google.com/your-link" }
+          { name: "GitHub", url: "https://github.com/harugamestudio/magic-cleanup" }
         ]
       }
     ]

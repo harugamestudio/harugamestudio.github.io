@@ -54,19 +54,40 @@ const gamePage = p => p.page && p.id ? `game.html?id=${encodeURIComponent(p.id)}
 })();
 
 /* ---------- Download popup (grouped by platform) ---------- */
+const GH_ICON = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>`;
+const cmdList = d => [].concat(d.command || []).filter(Boolean);
 function openDownload(p) {
   const dls = p.downloads || [];
   if (!dls.length || p.available === false) return;
-  if (dls.length === 1 && dls[0].mirrors.length === 1) return window.open(dls[0].mirrors[0].url, "_blank", "noopener");
+  const hasCmd = dls.some(d => cmdList(d).length);
+  if (!hasCmd && dls.length === 1 && dls[0].mirrors.length === 1) return window.open(dls[0].mirrors[0].url, "_blank", "noopener");
   $("#mTitle").textContent = p.title;
   $("#mSub").textContent = "Choose your platform and mirror";
   $("#mList").innerHTML = dls.map(d => `
     <div class="mgroup">
       <h4>${ICONS[d.platform] || ""}${esc(osName(d.platform))}</h4>
-      ${d.mirrors.map(m => `<a class="mirror" href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)}<span>➜</span></a>`).join("")}
+      ${cmdList(d).length ? `<div class="cmd-label">Install via terminal</div>
+        ${cmdList(d).map(c => `<div class="cmd"><span class="cmd-prompt">$</span><code>${esc(c)}</code><button class="cmd-copy" data-cmd="${esc(c)}" title="Copy">Copy</button></div>`).join("")}` : ""}
+      ${(d.mirrors || []).map(m => `<a class="mirror" href="${esc(m.url)}" target="_blank" rel="noopener"><span class="m-name">${/github\.com/i.test(m.url) ? GH_ICON : ""}${esc(m.name)}</span><span>➜</span></a>`).join("")}
     </div>`).join("");
   $("#modal").classList.add("open");
 }
+async function copyText(t) {
+  try { await navigator.clipboard.writeText(t); return true; }
+  catch {
+    const ta = Object.assign(document.createElement("textarea"), { value: t });
+    ta.style.cssText = "position:fixed;opacity:0"; document.body.append(ta); ta.select();
+    const ok = document.execCommand("copy"); ta.remove(); return ok;
+  }
+}
+document.addEventListener("click", async e => {
+  const b = e.target.closest(".cmd-copy");
+  if (!b) return;
+  const ok = await copyText(b.dataset.cmd);
+  b.textContent = ok ? "Copied ✓" : "Select & copy";
+  b.classList.toggle("done", ok);
+  setTimeout(() => { b.textContent = "Copy"; b.classList.remove("done"); }, 1800);
+});
 document.addEventListener("click", e => {
   const b = e.target.closest("[data-dl]");
   if (b && !b.disabled && !b.closest(".locked")) { e.preventDefault(); e.stopPropagation(); openDownload(PROJECTS[b.dataset.dl]); }
