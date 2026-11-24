@@ -4,6 +4,14 @@ const NEWS = {
   {
    "source": "patreon",
    "project": "Patreon",
+   "title": "💜 GOREGASM — Please Leave Your Rating!",
+   "link": "https://www.patreon.com/ruslanharu/posts/goregasm-please-176183709",
+   "date": "2026-11-23T19:30:21.000+00:00",
+   "summary": ""
+  },
+  {
+   "source": "patreon",
+   "project": "Patreon",
    "title": "Magic Cleanup: Devlog #2 is out! ✨",
    "link": "https://www.patreon.com/ruslanharu/posts/magic-cleanup-2-176055052",
    "date": "2026-11-22T12:55:51.000+00:00",
@@ -111,14 +119,6 @@ const NEWS = {
    "title": "✨ Building Mode Progress Update",
    "link": "https://www.patreon.com/ruslanharu/posts/building-mode-159047539",
    "date": "2026-05-23T17:35:44.000+00:00",
-   "summary": ""
-  },
-  {
-   "source": "patreon",
-   "project": "Patreon",
-   "title": "✨New Interactive Location",
-   "link": "https://www.patreon.com/ruslanharu/posts/new-interactive-157983818",
-   "date": "2026-05-11T17:02:12.000+00:00",
    "summary": ""
   },
   {
