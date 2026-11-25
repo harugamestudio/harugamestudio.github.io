@@ -18,6 +18,14 @@ const NEWS = {
    "summary": ""
   },
   {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM R.1.0",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1784668/-goregasm-r10",
+   "date": "2026-11-16T18:56:43+00:00",
+   "summary": "I think it's time to call GOREGASM a finished project. Of course, there may still be bugs, missing features, or things that some of you would like to see added or changed. But the project has grown…"
+  },
+  {
    "source": "patreon",
    "project": "Patreon",
    "title": "🔥 GOREGASM R.1.0",
@@ -82,6 +90,38 @@ const NEWS = {
    "summary": ""
   },
   {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "📸 Goregasm Screenshot Contest!",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1587439/-goregasm-screenshot-contest",
+   "date": "2026-07-15T19:24:48+00:00",
+   "summary": "Screenshot Contest! I'd also like to give away one additional Patreon tier to the person who creates the best screenshot in GOREGASM. With the release of version 0.7, the game now includes Photo…"
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.7 Release",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1581705/-goregasm-07-release",
+   "date": "2026-07-11T15:22:34+00:00",
+   "summary": "The 0.7 Release is now in progress and introduces several major systems that expand the game beyond combat. 07.11.2026 Release -fixed minor bugs -shader compilation reworked 07.03.2026 Beta Build A…"
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.7 Beta Build (Patreon)",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1572925/-goregasm-07-beta-build-patreon",
+   "date": "2026-07-03T07:20:23+00:00",
+   "summary": "PATREON A new Beta Build is available with several bug fixes and a couple of features requested by the community. 🛠 Bug Fixes Fixed a spot on The Castle where players could climb onto a statue's wi..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.7 Alpha Testing (Patreon)",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1565995/-goregasm-07-alpha-testing-patreon",
+   "date": "2026-06-27T11:05:45+00:00",
+   "summary": "Patreon Alpha Build Alpha testing for GOREGASM 0.7 is now currently in progress on Patreon 💜 This means early builds of the upcoming update are being tested by supporters before the public release..."
+  },
+  {
    "source": "patreon",
    "project": "Patreon",
    "title": "🔥 GOREGASM 0.7 Release",
@@ -120,6 +160,206 @@ const NEWS = {
    "link": "https://www.patreon.com/ruslanharu/posts/building-mode-159047539",
    "date": "2026-05-23T17:35:44.000+00:00",
    "summary": ""
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🛠 Bug & Ideas Tracker for GOREGASM",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1508223/-bug-ideas-tracker-for-goregasm",
+   "date": "2026-05-02T18:28:16+00:00",
+   "summary": "From now on, when you report bugs or share ideas for GOREGASM, you’ll be able to track their status ✨ I’ll occasionally add new tasks, my own ideas, and update their status: what’s in progress..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.6 Release",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1507303/-goregasm-06-release",
+   "date": "2026-05-01T20:03:53+00:00",
+   "summary": "This update focuses heavily on combat intimacy systems, environment polish, and small customization features. And one more small request 💜 Please consider leaving a like and a comment under the pos..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.6 — Beta Testing Started",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1500326/-goregasm-06-beta-testing-started",
+   "date": "2026-04-26T12:41:09+00:00",
+   "summary": "Beta testing for GOREGASM 0.6 has officially started for Patreon supporters 💜 This build focuses on polishing the new finisher system and improving overall gameplay stability. What’s new in the..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM — Alpha Testing 0.6 Started",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1493889/-goregasm-alpha-testing-06-started",
+   "date": "2026-04-19T13:31:03+00:00",
+   "summary": "Alpha testing for the next update has officially begun. Early Alpha builds are now available for Patreon supporters , where new systems and features are being tested before the public release. This…"
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🖤 Thank You & Project Updates",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1464724/-thank-you-project-updates",
+   "date": "2026-03-20T20:12:31+00:00",
+   "summary": "I want to take a moment to say thank you to everyone who has supported me and my projects. Your support, feedback, and patience truly mean a lot. Without you, none of this would be possible. 🌙 Sacr..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "🖤 Thank You & Project Updates",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/1464711/-thank-you-project-updates",
+   "date": "2026-03-20T19:59:11+00:00",
+   "summary": "I want to take a moment to say thank you to everyone who has supported me and my projects. Your support, feedback, and patience truly mean a lot. Without you, none of this would be possible. 🌙 Sacr..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "GOREGASM DLCs (+0.4ver)",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1279782/goregasm-dlcs-04ver",
+   "date": "2025-12-30T19:47:16+00:00",
+   "summary": "❄️ Goregasm - Winter DLC (0.4+ver) A new Winter DLC has arrived. Cold but calm atmosphere Changes the mood of the Temple Purely seasonal and atmospheric This DLC is optional and can be enabled or..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "GOREGASM - Public Version Update - 0.2",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1256325/goregasm-public-version-update-02",
+   "date": "2025-12-28T12:27:02+00:00",
+   "summary": "The public build has been updated. 🔹 Public version is now 0.2 (previously 0.1) This update includes: Here’s what’s new in v0.2 : 1️⃣ New Location – The Castle (Snow Biome) A frozen and d..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔮 GOREGASM — Version 0.4",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1198930/-goregasm-version-04",
+   "date": "2025-12-25T19:29:32+00:00",
+   "summary": "I didn’t expect version 0.4 to grow into something this large, but step by step it turned into a major update that changes a lot of core systems in the game. This update focuses on new gameplay…"
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🩸 GOREGASM — Version 0.3 “Trials of the Witch”",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1106572/-goregasm-version-03-trials-of-the-witch",
+   "date": "2025-11-07T17:47:06+00:00",
+   "summary": "This update brings new visual identity, new progression rewards, a new character, and better game feel overall. At the same time, version 0.2 is now available for Free Subs: DOWNLOAD Let’s go…"
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "🩸 New Project Demo — Goregasm 🩸",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/1066169/-new-project-demo-goregasm-",
+   "date": "2025-10-04T13:47:25+00:00",
+   "summary": "Hey everyone! I’ve started developing a brand-new project called Goregasm . Goregasm is a fast-paced wave shooter with heavy gore, dark style, and NSFW aesthetics. You’ll fight through hordes of e..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 Goregasm v0.2 is here! 🔥 + Public Demo Version",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1065305/-goregasm-v02-is-here-public-demo-version",
+   "date": "2025-10-03T16:15:36+00:00",
+   "summary": "I’m excited to announce that the 0.2 update is now live for paid patrons! At the same time, version 0.1 is now available publicly – so anyone curious can finally jump in and try the very first rel..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "A small but important update 🚀",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/1017704/a-small-but-important-update-",
+   "date": "2025-08-26T19:09:14+00:00",
+   "summary": "So… plot twist! 🎬 This journey started as a “one-person show” called RuslanHaru. But I realized I’m not that great at playing every single role in the movie anymore 😅 That’s why two am..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Sacred Lust — Update 1.0.1 (Performance Patch)",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/965158/sacred-lust-update-101-performance-patch",
+   "date": "2025-06-12T16:26:59+00:00",
+   "summary": "This is a stability and optimization-focused update aimed at improving the experience for players on all systems — especially those with lower-end hardware. 💠 What’s new & improved: 🕯 Optimi..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Version 1.0 — Sacred Lust / v0.9 now available for Free Subscribers!",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/963365/version-10-sacred-lust-v09-now-available-for-free-subscribers",
+   "date": "2025-06-09T20:05:20+00:00",
+   "summary": "🎉 Version 1.0 — Sacred Lust is complete! 🎉 The time has come. After a long and passionate journey, Sacred Lust reaches its first full release. Version 1.0 is here — and it’s the biggest up..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Sacred Lust — Version 0.9 \"Shadows of Her Soul\"",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/941981/sacred-lust-version-09-shadows-of-her-soul",
+   "date": "2025-05-10T07:22:47+00:00",
+   "summary": "The past doesn’t fade. It whispers… and now it’s calling you back. 🎭 Chapter 2: Portals of Sin Three portals. Three twisted souls who destroyed Lily. Walk through the shadows of her trauma, f..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Sacred Lust — Update 0.8.5",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/932878/sacred-lust-update-085",
+   "date": "2025-04-26T16:49:18+00:00",
+   "summary": "📸 Photo Mode You can now take screenshots with full camera control! Capture beautiful moments at any time during gameplay. ( Photo Mode during NSFW scenes is still in development. ) Files are saved..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Sacred Lust — Version 0.8: \"Whispers of the Church\"",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/928183/sacred-lust-version-08-whispers-of-the-church",
+   "date": "2025-04-19T09:09:42+00:00",
+   "summary": "🔥 Chapter 1 – Story Mode (NEW) Step into the beginning of the Sacred Lust universe. Discover the story of the nameless protagonist as he seeks shelter from a violent storm—only to become trappe..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Sacred Lust v0.7 — Whispers of Temptation",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/919250/sacred-lust-v07-whispers-of-temptation",
+   "date": "2025-04-05T07:51:15+00:00",
+   "summary": "🔥 Major Updates: 🌫️ Whispering Dust — a new trap born from blood mist. Step carefully... this cursed fog whispers your location to Lily. Once triggered, she’ll know exactly where you are..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "0.6 Hotfix",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/914611/06-hotfix",
+   "date": "2025-03-29T14:06:31+00:00",
+   "summary": "🔧 Fixes & Adjustments: Cheat AI Logic now properly works with the new AI system ( Patreon exclusive ). Cheat Infinity Stamina now correctly interacts with the Shadow Hands Trap ( Patreon exclusive..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Prepare for the Descent – Version 0.6",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/914096/prepare-for-the-descent-version-06",
+   "date": "2025-03-28T18:10:51+00:00",
+   "summary": "Prepare for the Descent – Version 0.6 🔊 New Horror Sound Effects Unearthly sounds now echo around you. Shadows whisper, dread creeps closer — fear becomes tangible. 🕯️ Roguelike Elements (..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Upcoming Update 0.6 – Prepare for the Descent",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/911056/upcoming-update-06-prepare-for-the-descent",
+   "date": "2025-03-23T19:32:50+00:00",
+   "summary": "Darkness grows bolder… Here’s a glimpse at what awaits: 🔊 New Horror Sound Effects Unearthly sounds now echo around you. Shadows whisper, dread creeps closer — fear becomes tangible. 🕯️..."
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Sacred Lust ver 0.5 – Now Available for Everyone!",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/910187/sacred-lust-ver-05-now-available-for-everyone",
+   "date": "2025-03-22T11:22:02+00:00",
+   "summary": "This update brings some exciting new features to spice up your experience: Procedural Level Generation Every run feels fresh and unpredictable. 8 unique room types, each with different layouts and…"
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Sacred Lust – Test Version 0.5 Available on Patreon!",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/909174/sacred-lust-test-version-05-available-on-patreon",
+   "date": "2025-03-20T17:16:28+00:00",
+   "summary": "Hey everyone! A test version of Sacred Lust v0.5 is now available exclusively for my Patreon supporters ! This build features procedural level generation , making each playthrough feel fresh and…"
+  },
+  {
+   "source": "itch",
+   "project": "Sacred Lust",
+   "title": "Update ver 0.4",
+   "link": "https://ruslanharu.itch.io/sacred-lust/devlog/905523/update-ver-04",
+   "date": "2025-03-14T18:43:31+00:00",
+   "summary": "Update ver 0.4 🔹 Hiding too long? Beware! – The dark forces are watching… Stay hidden for too long, and they will strip you of your light, leaving you vulnerable. 🔹 Stamina Awareness – A n..."
   }
  ]
 };
