@@ -4,6 +4,14 @@ const NEWS = {
   {
    "source": "patreon",
    "project": "Patreon",
+   "title": "HGS Tools — free tools for game devs",
+   "link": "https://www.patreon.com/ruslanharu/posts/hgs-tools-free-176464620",
+   "date": "2026-11-26T17:40:25.000+00:00",
+   "summary": ""
+  },
+  {
+   "source": "patreon",
+   "project": "Patreon",
    "title": "💜 GOREGASM — Please Leave Your Rating!",
    "link": "https://www.patreon.com/ruslanharu/posts/goregasm-please-176183709",
    "date": "2026-11-23T19:30:21.000+00:00",
@@ -151,14 +159,6 @@ const NEWS = {
    "title": "🔧 Current Progress for the Upcoming Update",
    "link": "https://www.patreon.com/ruslanharu/posts/current-progress-159488487",
    "date": "2026-05-28T17:59:30.000+00:00",
-   "summary": ""
-  },
-  {
-   "source": "patreon",
-   "project": "Patreon",
-   "title": "✨ Building Mode Progress Update",
-   "link": "https://www.patreon.com/ruslanharu/posts/building-mode-159047539",
-   "date": "2026-05-23T17:35:44.000+00:00",
    "summary": ""
   },
   {
