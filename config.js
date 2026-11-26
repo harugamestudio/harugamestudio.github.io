@@ -268,6 +268,54 @@ const PROJECTS = [
     ]
   }
 
+  ,{
+    id: "hgs-tools",
+    title: "HGS Tools",
+    type: "Tool",
+    available: true,
+    cover: "https://harugamestudio.github.io/hgs-tools/docs/screens/index.jpg",
+    status: "Released",
+    age: "",
+    version: "Free · In browser",
+    description: "Free browser tools for game developers: palettes, pixel upscaling, sprite sheets, icons, normal maps, SFX, names and lore. Nothing is uploaded.",
+    tags: ["Graphics", "Audio", "Text"],
+    downloads: [
+      {
+        platform: "web",
+        mirrors: [
+          { name: "Open HGS Tools", url: "https://harugamestudio.github.io/hgs-tools/" },
+          { name: "GitHub",         url: "https://github.com/harugamestudio/hgs-tools" }
+        ]
+      }
+    ],
+    page: {
+      itch: "",
+      banner: "",
+      about: [
+        "HGS Tools is a free set of browser tools for game developers, made by HARU Game Studio.",
+        "Everything runs right in your browser — no installs, no accounts, and nothing is uploaded anywhere."
+      ],
+      features: [
+        ["Palette Forge", "Colour harmonies and locks, export to GPL / PNG."],
+        ["Pixel Upscaler", "xBR, AI and Scale2x upscaling, batch export to ZIP."],
+        ["Sprite Sheets", "Slice, pack and preview sprite sheets, export GIF."],
+        ["Icon Forge", "One image → icons in every platform size."],
+        ["Normal Maps", "Bevel, detail, live lighting preview and AO."],
+        ["SFX Generator", "Shots, screams and creaks in one click."],
+        ["Names & Lore", "Generator of demons, cults, saints and relics."]
+      ],
+      trailer: "",
+      info: [
+        ["Runs in", "Any modern browser"],
+        ["Price", "Free"],
+        ["Source", "Open on GitHub"]
+      ],
+      requirements: {},
+      warning: "",
+      changelog: []
+    }
+  }
+
   /* Example of a non-game project
   ,{
     id: "my-tool",

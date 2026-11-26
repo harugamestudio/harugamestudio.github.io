@@ -66,7 +66,7 @@
       </div>
 
       <aside class="g-side">
-        ${(p.downloads || []).length ? `<button class="btn btn-blood g-btn" data-dl="${idx}">${DL_ICON}Download</button>` : ""}
+        ${(p.downloads || []).length ? `<button class="btn btn-blood g-btn" data-dl="${idx}">${dlLabel(p)}</button>` : ""}
         <div class="plats">${platBadges(p)}</div>
 
         <table class="g-info">${info.map(([k, v]) => `<tr><th>${esc(k)}</th><td>${esc(v)}</td></tr>`).join("")}</table>

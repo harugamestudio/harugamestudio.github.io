@@ -17,7 +17,8 @@
         <tr><th>Team</th><td>${esc(P.teamSize)}</td></tr>
         <tr><th>Website</th><td><a href="${esc(site)}">${esc(site.replace(/^https?:\/\//, ""))}</a></td></tr>
         <tr><th>Contact</th><td>${contact}</td></tr>
-        <tr><th>Games</th><td>${games.map(g => esc(g.title)).join(", ")}</td></tr>
+        <tr><th>Games</th><td>${games.filter(g => (g.type || "Game") === "Game").map(g => esc(g.title)).join(", ")}</td></tr>
+        ${games.some(g => g.type && g.type !== "Game") ? `<tr><th>Tools</th><td>${games.filter(g => g.type && g.type !== "Game").map(g => esc(g.title)).join(", ")}</td></tr>` : ""}
       </table>
       <div>
         <p class="fact-desc">${esc(P.description)}</p>
@@ -30,7 +31,7 @@
       <div class="press-links">${P.logoFiles.map(f => `<a class="btn" href="${esc(f.url)}" download>${esc(f.name)}</a>`).join("")}</div>
     </div>
 
-    <h2 class="reveal">Games</h2>
+    <h2 class="reveal">Projects</h2>
     ${games.map(p => {
       const G = p.page || {};
       return `

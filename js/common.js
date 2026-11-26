@@ -16,6 +16,9 @@ const osName = k => OS_NAMES[k] || k;
 const DL_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M6.5 10.5 12 16l5.5-5.5M4 20h16"/></svg>`;
 const platBadges = p => (p.downloads || []).map(d =>
   `<span class="plat" title="${esc(osName(d.platform))}">${ICONS[d.platform] || ""}<em>${esc(osName(d.platform))}</em></span>`).join("");
+const OPEN_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>`;
+const isWebOnly = p => (p.downloads || []).length > 0 && p.downloads.every(d => d.platform === "web");
+const dlLabel = p => isWebOnly(p) ? `${OPEN_ICON}Open` : `${DL_ICON}Download`;
 const fmtDate = d => { const x = new Date(d); return isNaN(x) ? esc(d) : x.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }); };
 const gamePage = p => p.page && p.id ? `game.html?id=${encodeURIComponent(p.id)}` : "";
 
@@ -62,7 +65,7 @@ function openDownload(p) {
   const hasCmd = dls.some(d => cmdList(d).length);
   if (!hasCmd && dls.length === 1 && dls[0].mirrors.length === 1) return window.open(dls[0].mirrors[0].url, "_blank", "noopener");
   $("#mTitle").textContent = p.title;
-  $("#mSub").textContent = "Choose your platform and mirror";
+  $("#mSub").textContent = isWebOnly(p) ? "Open in your browser" : "Choose your platform and mirror";
   $("#mList").innerHTML = dls.map(d => `
     <div class="mgroup">
       <h4>${ICONS[d.platform] || ""}${esc(osName(d.platform))}</h4>

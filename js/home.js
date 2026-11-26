@@ -28,7 +28,7 @@
         <p class="desc">${esc(p.description)}</p>
         <div class="tags">${(p.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>
         <div class="dl">
-          ${(p.downloads || []).length ? `<button class="btn btn-blood" data-dl="${i}" ${locked ? "disabled" : ""}>${DL_ICON}Download</button>` : ""}
+          ${(p.downloads || []).length ? `<button class="btn btn-blood" data-dl="${i}" ${locked ? "disabled" : ""}>${dlLabel(p)}</button>` : ""}
           ${page ? `<a class="btn" href="${page}">Details</a>` : ""}
         </div>
       </div>
