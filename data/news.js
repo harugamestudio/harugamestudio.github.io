@@ -26,6 +26,14 @@ const NEWS = {
    "summary": ""
   },
   {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM R.1.0",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1784668/-goregasm-r10",
+   "date": "2026-11-16T18:56:43+00:00",
+   "summary": "I think it's time to call GOREGASM a finished project. Of course, there may still be bugs, missing features, or things that some of you would like to see added or changed. But the project has grown…"
+  },
+  {
    "source": "patreon",
    "project": "Patreon",
    "title": "🔥 GOREGASM R.1.0",
@@ -90,6 +98,38 @@ const NEWS = {
    "summary": ""
   },
   {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "📸 Goregasm Screenshot Contest!",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1587439/-goregasm-screenshot-contest",
+   "date": "2026-07-15T19:24:48+00:00",
+   "summary": "Screenshot Contest! I'd also like to give away one additional Patreon tier to the person who creates the best screenshot in GOREGASM. With the release of version 0.7, the game now includes Photo…"
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.7 Release",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1581705/-goregasm-07-release",
+   "date": "2026-07-11T15:22:34+00:00",
+   "summary": "The 0.7 Release is now in progress and introduces several major systems that expand the game beyond combat. 07.11.2026 Release -fixed minor bugs -shader compilation reworked 07.03.2026 Beta Build A…"
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.7 Beta Build (Patreon)",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1572925/-goregasm-07-beta-build-patreon",
+   "date": "2026-07-03T07:20:23+00:00",
+   "summary": "PATREON A new Beta Build is available with several bug fixes and a couple of features requested by the community. 🛠 Bug Fixes Fixed a spot on The Castle where players could climb onto a statue's wi..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.7 Alpha Testing (Patreon)",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1565995/-goregasm-07-alpha-testing-patreon",
+   "date": "2026-06-27T11:05:45+00:00",
+   "summary": "Patreon Alpha Build Alpha testing for GOREGASM 0.7 is now currently in progress on Patreon 💜 This means early builds of the upcoming update are being tested by supporters before the public release..."
+  },
+  {
    "source": "patreon",
    "project": "Patreon",
    "title": "🔥 GOREGASM 0.7 Release",
@@ -123,6 +163,46 @@ const NEWS = {
   },
   {
    "source": "itch",
+   "project": "GOREGASM",
+   "title": "🛠 Bug & Ideas Tracker for GOREGASM",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1508223/-bug-ideas-tracker-for-goregasm",
+   "date": "2026-05-02T18:28:16+00:00",
+   "summary": "From now on, when you report bugs or share ideas for GOREGASM, you’ll be able to track their status ✨ I’ll occasionally add new tasks, my own ideas, and update their status: what’s in progress..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.6 Release",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1507303/-goregasm-06-release",
+   "date": "2026-05-01T20:03:53+00:00",
+   "summary": "This update focuses heavily on combat intimacy systems, environment polish, and small customization features. And one more small request 💜 Please consider leaving a like and a comment under the pos..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM 0.6 — Beta Testing Started",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1500326/-goregasm-06-beta-testing-started",
+   "date": "2026-04-26T12:41:09+00:00",
+   "summary": "Beta testing for GOREGASM 0.6 has officially started for Patreon supporters 💜 This build focuses on polishing the new finisher system and improving overall gameplay stability. What’s new in the..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 GOREGASM — Alpha Testing 0.6 Started",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1493889/-goregasm-alpha-testing-06-started",
+   "date": "2026-04-19T13:31:03+00:00",
+   "summary": "Alpha testing for the next update has officially begun. Early Alpha builds are now available for Patreon supporters , where new systems and features are being tested before the public release. This…"
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🖤 Thank You & Project Updates",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1464724/-thank-you-project-updates",
+   "date": "2026-03-20T20:12:31+00:00",
+   "summary": "I want to take a moment to say thank you to everyone who has supported me and my projects. Your support, feedback, and patience truly mean a lot. Without you, none of this would be possible. 🌙 Sacr..."
+  },
+  {
+   "source": "itch",
    "project": "Sacred Lust",
    "title": "🖤 Thank You & Project Updates",
    "link": "https://ruslanharu.itch.io/sacred-lust/devlog/1464711/-thank-you-project-updates",
@@ -131,11 +211,51 @@ const NEWS = {
   },
   {
    "source": "itch",
+   "project": "GOREGASM",
+   "title": "GOREGASM DLCs (+0.4ver)",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1279782/goregasm-dlcs-04ver",
+   "date": "2025-12-30T19:47:16+00:00",
+   "summary": "❄️ Goregasm - Winter DLC (0.4+ver) A new Winter DLC has arrived. Cold but calm atmosphere Changes the mood of the Temple Purely seasonal and atmospheric This DLC is optional and can be enabled or..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "GOREGASM - Public Version Update - 0.2",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1256325/goregasm-public-version-update-02",
+   "date": "2025-12-28T12:27:02+00:00",
+   "summary": "The public build has been updated. 🔹 Public version is now 0.2 (previously 0.1) This update includes: Here’s what’s new in v0.2 : 1️⃣ New Location – The Castle (Snow Biome) A frozen and d..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔮 GOREGASM — Version 0.4",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1198930/-goregasm-version-04",
+   "date": "2025-12-25T19:29:32+00:00",
+   "summary": "I didn’t expect version 0.4 to grow into something this large, but step by step it turned into a major update that changes a lot of core systems in the game. This update focuses on new gameplay…"
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🩸 GOREGASM — Version 0.3 “Trials of the Witch”",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1106572/-goregasm-version-03-trials-of-the-witch",
+   "date": "2025-11-07T17:47:06+00:00",
+   "summary": "This update brings new visual identity, new progression rewards, a new character, and better game feel overall. At the same time, version 0.2 is now available for Free Subs: DOWNLOAD Let’s go…"
+  },
+  {
+   "source": "itch",
    "project": "Sacred Lust",
    "title": "🩸 New Project Demo — Goregasm 🩸",
    "link": "https://ruslanharu.itch.io/sacred-lust/devlog/1066169/-new-project-demo-goregasm-",
    "date": "2025-10-04T13:47:25+00:00",
    "summary": "Hey everyone! I’ve started developing a brand-new project called Goregasm . Goregasm is a fast-paced wave shooter with heavy gore, dark style, and NSFW aesthetics. You’ll fight through hordes of e..."
+  },
+  {
+   "source": "itch",
+   "project": "GOREGASM",
+   "title": "🔥 Goregasm v0.2 is here! 🔥 + Public Demo Version",
+   "link": "https://ruslanharu.itch.io/goregasm/devlog/1065305/-goregasm-v02-is-here-public-demo-version",
+   "date": "2025-10-03T16:15:36+00:00",
+   "summary": "I’m excited to announce that the 0.2 update is now live for paid patrons! At the same time, version 0.1 is now available publicly – so anyone curious can finally jump in and try the very first rel..."
   },
   {
    "source": "itch",
