@@ -4,6 +4,22 @@ const NEWS = {
   {
    "source": "patreon",
    "project": "Patreon",
+   "title": "Magic Cleanup: testing v0.1.0 before the public release",
+   "link": "https://www.patreon.com/ruslanharu/posts/magic-cleanup-v0-176629343",
+   "date": "2026-11-28T15:09:47.000+00:00",
+   "summary": ""
+  },
+  {
+   "source": "patreon",
+   "project": "Patreon",
+   "title": "Magic Cleanup v0.1.0: early build for patrons ✨",
+   "link": "https://www.patreon.com/ruslanharu/posts/magic-cleanup-v0-176629032",
+   "date": "2026-11-28T15:06:49.000+00:00",
+   "summary": ""
+  },
+  {
+   "source": "patreon",
+   "project": "Patreon",
    "title": "HGS Tools — free tools for game devs",
    "link": "https://www.patreon.com/ruslanharu/posts/hgs-tools-free-176464620",
    "date": "2026-11-26T17:40:25.000+00:00",
@@ -143,22 +159,6 @@ const NEWS = {
    "title": "📸 What Else Is Coming in 0.7?",
    "link": "https://www.patreon.com/ruslanharu/posts/what-else-is-in-161232792",
    "date": "2026-06-16T10:42:03.000+00:00",
-   "summary": ""
-  },
-  {
-   "source": "patreon",
-   "project": "Patreon",
-   "title": "✨ What’s Ready So Far for Version 0.7",
-   "link": "https://www.patreon.com/ruslanharu/posts/whats-ready-so-0-160329838",
-   "date": "2026-06-06T12:37:43.000+00:00",
-   "summary": ""
-  },
-  {
-   "source": "patreon",
-   "project": "Patreon",
-   "title": "🔧 Current Progress for the Upcoming Update",
-   "link": "https://www.patreon.com/ruslanharu/posts/current-progress-159488487",
-   "date": "2026-05-28T17:59:30.000+00:00",
    "summary": ""
   },
   {
